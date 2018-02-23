@@ -6,9 +6,9 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
-using UnitTestProject1.Pages;
+using SPA_SeleniumTestProject.Pages;
 
-namespace UnitTestProject1
+namespace SPA_SeleniumTestProject
 {
     [TestClass]
     public class UnitTest1

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTestProject1.Pages
+namespace SPA_SeleniumTestProject.Pages
 {
     class SearchPage:BasicPage
     {

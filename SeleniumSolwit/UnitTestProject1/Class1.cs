@@ -7,10 +7,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Reflection;
 using OpenQA.Selenium.Chrome;
-using UnitTestProject1.Pages;
+using SPA_SeleniumTestProject.Pages;
 using OpenQA.Selenium;
 
-namespace UnitTestProject1
+namespace SPA_SeleniumTestProject
 {
     [TestClass]
     class UltimateQaTest
@@ -33,7 +33,7 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void CompicatePageSearch()
+        public void ComplicatedPageSearch()
         {
             var mainPage = new MainPage(_driver);
             mainPage.Search("complicated page");
