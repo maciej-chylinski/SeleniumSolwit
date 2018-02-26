@@ -12,7 +12,7 @@ namespace SPA_SeleniumTestProject.Pages
         public MainPage(IWebDriver driver) : base(driver)
         {
             driver.Manage().Window.Maximize();
-            Driver.Navigate().GoToUrl("https://www.ultimateqa.com/");
+            Driver.Navigate().GoToUrl(settings.logginPageUrl);
         }
 
         public SearchPage Search(string text)

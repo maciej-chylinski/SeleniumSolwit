@@ -11,8 +11,8 @@ namespace SPA_SeleniumTestProject.Pages
     {
         public SearchPage(IWebDriver driver) : base(driver) { }
         public void ClickTopLink()
-        {
-            var link = Driver.FindElement(By.XPath("//*[@href='https://www.ultimateqa.com/complicated-page/']"));
+        {            
+            var link = Driver.FindElement(By.XPath(settings.loginPopup));
             link.Click();
         }
     }

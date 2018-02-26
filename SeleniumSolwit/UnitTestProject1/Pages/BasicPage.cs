@@ -10,10 +10,12 @@ namespace SPA_SeleniumTestProject.Pages
     class BasicPage
     {
         public IWebDriver Driver{get;}
+        public static Settings settings;
 
         public BasicPage(IWebDriver driver)
         {
             Driver = driver;
+            settings = new Settings();
         }
     }
 }
