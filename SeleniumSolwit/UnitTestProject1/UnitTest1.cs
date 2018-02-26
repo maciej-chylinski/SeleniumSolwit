@@ -13,7 +13,7 @@ namespace SPA_SeleniumTestProject
     [TestClass]
     public class UnitTest1
     {
-        static IWebDriver driver;
+        static IWebDriver driver;        
 
         [TestInitialize]
         public void TestSetup()
@@ -88,7 +88,7 @@ namespace SPA_SeleniumTestProject
             Assert.AreEqual("Click Me!", elem.Text);
             Assert.AreEqual("button", elem.TagName);
             Assert.AreEqual(21, elem.Size.Height);
-            //Assert.AreEqual(new System.Drawing.Point(91, 338), elem.Location);
+            //Assert.AreEqual(new System.Drawing.Point(91, 338), elem.Location);            
         }
 
         [TestMethod]
@@ -150,6 +150,7 @@ namespace SPA_SeleniumTestProject
             Assert.AreEqual("https://www.ultimateqa.com/complicated-page/", searchPage.Driver.Url);
         }
 
+ 
         [TestCleanup]
         public void CleanUp()
         {
